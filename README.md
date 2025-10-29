@@ -1,8 +1,3 @@
-
----
-
-## 🎬 **2. Movie Recommendation System**
-```markdown
 # 🎬 Movie Recommendation System
 A content-based recommendation engine that suggests movies using similarity measures between features.
 
@@ -29,6 +24,16 @@ It helps users find similar movies based on their preferences.
 4. **Recommendation Function**
    - Built a function that outputs top similar movies given a movie name
 
+## 🧠 Example
+If user inputs:
+```
+recommend("Inception")
+```
+Output might be:
+```
+Interstellar, The Dark Knight, The Prestige, Tenet, Shutter Island
+```
+
 ## 🧰 Tools & Libraries
 - `pandas`, `numpy`
 - `scikit-learn`
@@ -39,3 +44,9 @@ It helps users find similar movies based on their preferences.
 ```bash
 pip install pandas numpy scikit-learn nltk
 jupyter notebook movie_recommend_project.ipynb
+```
+
+## 💡 Future Improvements
+- Add a **web interface** (Streamlit or Flask)
+- Include **collaborative filtering**
+- Incorporate **IMDb or TMDB API** for dynamic updates
